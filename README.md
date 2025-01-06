@@ -48,6 +48,14 @@ http://localhost:8080/swagger-ui
 The Postman collection has been updated for **Consent Management**, covering the following:
 
 1.Add User/Users
+
 2.Get User/Users to verify
+
 3.Authenticate User to get the TOKEN
+
 4.Use the Token in headers with Authorization key for Purpose and Consent APIs.
+
+
+**Future Enhancements**
+
+Distributed Scaling: Implement Redis for distributed IP-based Rate Limiting and UUID/CustomID Generator for distributed IDs(In Mysql Tables)
